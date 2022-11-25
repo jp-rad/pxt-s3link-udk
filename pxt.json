@@ -1,6 +1,6 @@
 {
-    "name": "pxt-ubit-extension",
-    "description": "",
+    "name": "pxt-s3link-udk",
+    "description": "S3Link micro:bit developer kit(UDK) for Scratchers.",
     "dependencies": {
         "core": "*"
     },
@@ -8,10 +8,10 @@
         "README.md",
         "enums.d.ts",
         "shims.d.ts",
-        "custom.ts",
-        "custom.cpp",
-        "lib/customlib.h",
-        "lib/customlib.cpp"
+        "S3LinkUDK.ts",
+        "S3LinkUDK.cpp",
+        "lib/S3LinkBLEService.h",
+        "lib/S3LinkBLEService.cpp"
     ],
     "testFiles": [
         "test.ts"
@@ -23,5 +23,14 @@
     "supportedTargets": [
         "microbit"
     ],
-    "preferredEditor": "tsprj"
+    "preferredEditor": "tsprj",
+    "yotta": {
+        "config": {
+            "microbit-dal": {
+                "bluetooth": {
+                    "enabled": 1
+                }
+            }
+        }
+    }
 }
