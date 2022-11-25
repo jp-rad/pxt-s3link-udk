@@ -1,13 +1,6 @@
 // tests go here; this will not be compiled when this package is used as an extension.
-input.onButtonPressed(Button.A, function () {
-    a = custom.bar(a)
-})
-input.onButtonPressed(Button.B, function () {
-    a = 0
-})
-let a = 0
-a = 0
-basic.forever(function () {
-    basic.showNumber(a)
-    basic.pause(100)
+// Service UUID: 0xF005(16) = 61445(10)
+s3linkudk.startService()
+s3linkudk.onDisplayTextReceived(function (text) {
+    basic.showString(text)
 })
