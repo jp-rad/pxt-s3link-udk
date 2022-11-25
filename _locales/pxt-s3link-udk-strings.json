@@ -1,0 +1,23 @@
+{
+  "S3LinkEvent.ButtonA|block": "A",
+  "S3LinkEvent.ButtonB|block": "B",
+  "S3LinkEvent.GestureJumped|block": "jumped",
+  "S3LinkEvent.GestureMoved|block": "moved",
+  "S3LinkEvent.GestureShaken|block": "shaken",
+  "S3LinkEvent.TouchPinP0|block": "P0",
+  "S3LinkEvent.TouchPinP1|block": "P1",
+  "S3LinkEvent.TouchPinP2|block": "P2",
+  "s3linkudk.getDisplayText|block": "UDK get display text",
+  "s3linkudk.nextDisplayText|block": "UDK next display text",
+  "s3linkudk.onConnected|block": "UDK on connected",
+  "s3linkudk.onDisconnected|block": "UDK on disconnected",
+  "s3linkudk.onDisplayTextReceived|block": "UDK on display text received",
+  "s3linkudk.raiseEvent|block": "UDK raise event %event",
+  "s3linkudk.registerDisplayDataReceived|block": "UDK register display data received",
+  "s3linkudk.setSensorValueOrCounter|block": "UDK set sensor %event to %valueOrCounter",
+  "s3linkudk.setState|block": "UDK set state %event to %state",
+  "s3linkudk.setTilt|block": "UDK set tilt %kind to %value",
+  "s3linkudk.startService|block": "UDK start service",
+  "s3linkudk|block": "S3Link UDK",
+  "{id:category}S3linkudk": "S3linkudk"
+}
